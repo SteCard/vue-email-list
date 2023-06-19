@@ -9,12 +9,12 @@
     <script defer src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- JS -->
     <script defer type="text/javascript" src="./js/script.js"></script>
-    <title>Document</title>
+    <title>Vue Mail List</title>
 </head>
 <body>
     <div id="app">
         <ul >
-            <li v-for="(q, index) in mail">{{q}}</li>
+            <li v-for="email in arrayMail">{{email}}</li>
         </ul>
     </div>
 </body>
